@@ -91,11 +91,11 @@
           status.textContent = "Airobot ~ Message sent successfully..!";
           form.reset();
         } else {
-          status.textContent = "❌ Failed to send message.";
+          status.textContent = "Failed to send message.";
         }
       } catch (err) {
         console.error(err);
-        status.textContent = "⚠️ Connection error.";
+        status.textContent = "Connection error.";
       }
     });
   </script>
